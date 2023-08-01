@@ -19,3 +19,6 @@ Route::post('exercicio/um', [ExercicioUmController::class, 'multiplicar']);
 Route::post('exercicio/dois', [ExercicioDoisController::class, 'retornar']);
 
 Route::post('exercicio/tres',[ExercicioTresController::class, 'media']);
+
+Route::post('exercicio/quatro',[ExercicioQuatroController::class, 'parimpar']);
+
