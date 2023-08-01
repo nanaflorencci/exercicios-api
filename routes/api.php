@@ -22,3 +22,5 @@ Route::post('exercicio/tres',[ExercicioTresController::class, 'media']);
 
 Route::post('exercicio/quatro',[ExercicioQuatroController::class, 'parimpar']);
 
+Route::post('exercicio/cinco',[ExercicioCincoController::class, 'divisivel']);
+
