@@ -20,7 +20,7 @@ Route::post('exercicio/dois', [ExercicioDoisController::class, 'RetornarMaior'])
 
 Route::post('exercicio/tres',[ExercicioTresController::class, 'Media']);
 
-Route::post('exercicio/quatro',[ExercicioQuatroController::class, 'Verificar']);
+Route::post('exercicio/quatro',[ExercicioQuatroController::class, 'ParImpar']);
 
 Route::post('exercicio/cinco',[ExercicioCincoController::class, 'verificacao']);
 

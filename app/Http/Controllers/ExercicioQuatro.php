@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ExercicioQuatro extends Controller
 {
-    public function verficar(Request $request)
+    public function ParImpar(Request $request)
     {
         if ($request->numero % 2 == 0) {
             return json_encode([
