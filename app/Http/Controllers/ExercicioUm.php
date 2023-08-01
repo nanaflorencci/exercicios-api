@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ExercicioUm extends Controller
 {
-    public function Multiplicar(Request $request)
+    public function multiplicar(Request $request)
     {
         $primeiraEntrada = $request->primeiro_numero;
         $segundaEntrada = $request->segundo_numero;
