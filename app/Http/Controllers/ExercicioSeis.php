@@ -6,19 +6,20 @@ use Illuminate\Http\Request;
 
 class ExercicioSeis extends Controller
 {
-    public function idade(Request $request){
-        if($request->numero <=12){
+    public function idade(Request $request)
+    {
+        if ($request->numero <= 12) {
             return json_encode([
                 'menssage' => '“O usuário é uma criança'
             ]);
-        } else if($request->numero<=18){
+        } else if ($request->numero <= 18) {
             return json_encode([
-                'menssage'=>"É um dolecente"
+                'menssage' => "É um dolecente"
             ]);
         } else {
             return json_encode([
-                'menssage'=> '“É um adulto'
+                'menssage' => '“É um adulto'
             ]);
         }
-     }
+    }
 }

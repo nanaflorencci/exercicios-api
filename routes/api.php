@@ -24,3 +24,4 @@ Route::post('exercicio/quatro',[ExercicioQuatroController::class, 'Verificar']);
 
 Route::post('exercicio/cinco',[ExercicioCincoController::class, 'verificacao']);
 
+Route::post('exercicio/seis',[ExercicioSeisController::class, 'idade']);
