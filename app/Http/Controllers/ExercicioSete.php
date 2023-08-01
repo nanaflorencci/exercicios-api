@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ExercicioSete extends Controller
 {
-    public function ExibirNumeros()
+    public function exibir()
     {
         $numeros = [];
 
