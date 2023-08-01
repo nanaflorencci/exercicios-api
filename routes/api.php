@@ -34,3 +34,5 @@ Route::get('exercicio/nove', [ExercicioSeteController::class, '']);
 
 Route::get('exercicio/dez', [ExercicioSeteController::class, '']);
 
+Route::get('exercicio/onze', [ExercicioSeteController::class, '']);
+
