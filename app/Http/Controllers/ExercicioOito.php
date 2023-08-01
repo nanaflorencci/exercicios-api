@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ExercicioOito extends Controller
 {
-    public function tabuada(Request $request)
+    public function Tabuada(Request $request)
     {
         $numero = $request->numero_tabuada;
 
