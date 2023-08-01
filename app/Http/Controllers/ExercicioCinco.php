@@ -6,15 +6,16 @@ use Illuminate\Http\Request;
 
 class ExercicioCinco extends Controller
 {
-    public function verificacao(Request $request){
-        if($request->numero % 4==0){
+    public function verificacao(Request $request)
+    {
+        if ($request->numero % 4 == 0) {
             return json_encode([
                 'menssage' => 'Divisivel por 4'
             ]);
-        }else {
+        } else {
             return json_encode([
-                'menssage'=> 'não é divisivel por 4'
+                'menssage' => 'não é divisivel por 4'
             ]);
-         }
-     }
+        }
+    }
 }
