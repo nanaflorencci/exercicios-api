@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ExercicioDoze extends Controller
 {
-    public function decrescente()
+    public function Decrescente()
     {
         $numeros = [];
 
