@@ -18,9 +18,7 @@ class ExercicioOito extends Controller
             array_push($numeros, $resultado);
         }
         return json_encode([
-           "resultado" => $numeros
+            "resultado" => $numeros
         ]);
-
-
     }
 }
