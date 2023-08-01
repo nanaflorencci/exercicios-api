@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ExercicioCinco extends Controller
 {
-    public function verificacao(Request $request)
+    public function Divisivel(Request $request)
     {
         if ($request->numero % 4 == 0) {
             return json_encode([

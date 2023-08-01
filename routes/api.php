@@ -22,9 +22,9 @@ Route::post('exercicio/tres',[ExercicioTresController::class, 'Media']);
 
 Route::post('exercicio/quatro',[ExercicioQuatroController::class, 'ParImpar']);
 
-Route::post('exercicio/cinco',[ExercicioCincoController::class, 'verificacao']);
+Route::post('exercicio/cinco',[ExercicioCincoController::class, 'Divisivel']);
 
-Route::post('exercicio/seis',[ExercicioSeisController::class, 'idade']);
+Route::post('exercicio/seis',[ExercicioSeisController::class, 'Idade']);
 
 Route::get('exercicio/sete', [ExercicioSeteController::class, 'exibirNumeros']);
 
