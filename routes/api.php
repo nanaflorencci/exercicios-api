@@ -30,3 +30,5 @@ Route::get('exercicio/sete', [ExercicioSeteController::class, 'exibirNumeros']);
 
 Route::post('exercicio/oito',[ExercicioOitoController::class, 'tabuada']);
 
+Route::get('exercicio/nove', [ExercicioSeteController::class, '']);
+
