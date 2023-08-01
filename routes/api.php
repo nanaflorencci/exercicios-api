@@ -24,3 +24,5 @@ Route::post('exercicio/quatro',[ExercicioQuatroController::class, 'parimpar']);
 
 Route::post('exercicio/cinco',[ExercicioCincoController::class, 'divisivel']);
 
+Route::post('exercicio/seis',[ExercicioSeisController::class, 'idade']);
+

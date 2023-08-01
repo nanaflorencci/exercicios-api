@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ExercicioSeis extends Controller
 {
-    public function idade(Request $request)
+    public function Idade(Request $request)
     {
         if ($request->numero <= 12) {
             return json_encode([
