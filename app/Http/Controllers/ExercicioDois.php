@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ExercicioDois extends Controller
 {
-    public function retornarMaior(Request $request)
+    public function retornar(Request $request)
     {
         if ($request->primeira_entrada > $request->segunda_entrada) {
             return json_encode([
