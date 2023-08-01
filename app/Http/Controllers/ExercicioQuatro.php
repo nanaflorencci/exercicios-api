@@ -6,19 +6,16 @@ use Illuminate\Http\Request;
 
 class ExercicioQuatro extends Controller
 {
-    public function verficar(Request $request){
-
-        if($request->numero % 2==0){
-         return json_encode([
-             'mensagem' => 'Par'
-         ]);
+    public function verficar(Request $request)
+    {
+        if ($request->numero % 2 == 0) {
+            return json_encode([
+                'mensagem' => 'Par'
+            ]);
         } else {
-         return json_encode([
-             'mensagem'=> "Impar"
-         ]);
+            return json_encode([
+                'mensagem' => "Impar"
+            ]);
         }
-        
-     
-     
-         }
+    }
 }
