@@ -23,20 +23,33 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 ```
 cd exercicios-api
 ```
+<<<<<<< HEAD
 3. Inicializando o Repositorio
+=======
+3. Inicializando o REpositório
+>>>>>>> 968a4412d4fd67907cd5f219d8c9d012a58d816d
 ```
 composer update
 ```
 4. Copiando o .env do exemplo
 ```
+<<<<<<< HEAD
 copy .env.exemple .env
 ```
 
+=======
+copy .env.exemplo .env
+```
+>>>>>>> 968a4412d4fd67907cd5f219d8c9d012a58d816d
 5. Acessar o Visual Studio Code
 ```
 code .
 ```
+<<<<<<< HEAD
 ## Insomnia
+=======
+#Insomnia
+>>>>>>> 968a4412d4fd67907cd5f219d8c9d012a58d816d
 
 ## Licença
 
