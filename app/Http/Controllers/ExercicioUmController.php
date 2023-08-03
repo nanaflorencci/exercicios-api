@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioUm extends Controller
+class ExercicioUmController extends Controller
 {
-    public function multiplicar(Request $request)
+    public function Multiplicar(Request $request)
     {
         $primeiraEntrada = $request->primeiro_numero;
         $segundaEntrada = $request->segundo_numero;

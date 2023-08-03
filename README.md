@@ -36,6 +36,7 @@ copy .env.exemple .env
 ```
 code .
 ```
+## Insomnia
 
 ## Licença
 

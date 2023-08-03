@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioDois extends Controller
+class ExercicioDoisController extends Controller
 {
-    public function retornar(Request $request)
+    public function Retornar(Request $request)
     {
         if ($request->primeira_entrada > $request->segunda_entrada) {
             return json_encode([

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioDoze extends Controller
+class ExercicioDozeController extends Controller
 {
     public function Decrescente()
     {

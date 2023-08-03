@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioSete extends Controller
+class ExercicioSeteController extends Controller
 {
-    public function exibir()
+    public function Exibir()
     {
         $numeros = [];
 

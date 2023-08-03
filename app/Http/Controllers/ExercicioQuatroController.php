@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioQuatro extends Controller
+class ExercicioQuatroController extends Controller
 {
-    public function parimpar(Request $request)
+    public function ParImpar(Request $request)
     {
         if ($request->numero % 2 == 0) {
             return json_encode([

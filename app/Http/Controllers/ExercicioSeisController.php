@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioSeis extends Controller
+class ExercicioSeisController extends Controller
 {
     public function Idade(Request $request)
     {
@@ -22,4 +22,5 @@ class ExercicioSeis extends Controller
             ]);
         }
     }
+    
 }

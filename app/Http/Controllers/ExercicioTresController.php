@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioTres extends Controller
+class ExercicioTresController extends Controller
 {
-    public function media(Request $request)
+    public function Media(Request $request)
     {
         $primeiroNumero = $request->primeiro_numero;
         $segundoNumero = $request->segundo_numero;

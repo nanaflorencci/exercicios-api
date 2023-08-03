@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioOito extends Controller
+class ExercicioOitoController extends Controller
 {
     public function Tabuada(Request $request)
     {

@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ExercicioCinco extends Controller
+class ExercicioCincoController extends Controller
 {
-    public function divisivel(Request $request)
+    public function Divisivel(Request $request)
     {
         if ($request->numero % 4 == 0) {
             return json_encode([
