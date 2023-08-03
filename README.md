@@ -23,6 +23,19 @@ Certifique-se de ter os seguintes requisitos atendidos antes de começar a traba
 ```
 cd exercicios-api
 ```
+3. Inicializando o Repositorio
+```
+composer update
+```
+4. Copiando o .env do exemplo
+```
+copy .env.exemple .env
+```
+
+5. Acessar o Visual Studio Code
+```
+code .
+```
 
 ## Licença
 
@@ -34,4 +47,4 @@ Em caso de dúvidas, sugestões ou problemas, sinta-se à vontade para entrar em
 
 **Aviso**: Certifique-se de substituir "seu_usuario" no link de clonagem e "seu_email@example.com" na seção de contato pelos valores correspondentes do seu próprio usuário do GitHub e endereço de e-mail.
 
-Este é apenas um modelo básico de README.md, você pode adaptar e melhorar conforme suas necessidades específicas de projeto. Certifique-se de incluir informações importantes sobre como configurar, executar e testar os exercícios, bem como qualquer outra documentação relevante para tornar o repositório mais amigável e útil para outros desenvolvedores.
+Este é apenas um modelo básico de README.md, você pode adaptar e melhorar conforme suas necessidades específicas de projeto. Certifique-se de incluir informações importantes sobre como configurar, executar e testar os exercícios, bem como qualquer outra documentação relevante para tornar o repositório mais amigável e útil para outros desenvolvedores."# exercicios-api" 
